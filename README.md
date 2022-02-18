@@ -1,15 +1,18 @@
 # Desafio Capgemini 2022 :computer:
 
-# Linguagem:
-- JAVA
 
 # Tecnologias:
-- Eclipse 
+- linguagem JAVA
+- Maven
 - JUnit
 
-# Instruções para executar o projeto:
-Crie um diretório /git para clonar o projeto abaixo. 
-* git clone https://github.com/karollinesena2/DesafioCapgemini.git
+# IDE para executar projeto: 
+- Eclipse 
+
+# Instruções: 
+- baixar projeto
+- git clone  
+- https://github.com/karollinesena2/DesafioCapgemini.git
 
  # Questões abordadas: 
  
