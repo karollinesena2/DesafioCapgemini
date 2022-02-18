@@ -44,4 +44,4 @@
 
 # Teste
 
-Foram realizados testes unitários com **JUnit**.
+Realizados testes unitários com **JUnit**.
