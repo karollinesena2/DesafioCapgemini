@@ -11,8 +11,7 @@
 
 # Instruções: 
 - baixar projeto
-- git clone  
-- https://github.com/karollinesena2/DesafioCapgemini.git
+ git clone +   https://github.com/karollinesena2/DesafioCapgemini.git
 
  # Questões abordadas: 
  
