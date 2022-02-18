@@ -1,14 +1,15 @@
+package desafios;
 import java.util.ArrayList;
 
 public class DesafioTres {
 
-	public static void main(String[] args) {
+	public void main(String[] args) {
 		String string = "ifailuhkqq";
 		getQuantityAnagram(string);
 
 	}
 
-	public static Integer getQuantityAnagram(String word) {
+	public Integer getQuantityAnagram(String word) {
 		ArrayList<String> anagram = new ArrayList<String>();
 
 		// for realizado enquanto o i for menor que o tamanho da string recebida

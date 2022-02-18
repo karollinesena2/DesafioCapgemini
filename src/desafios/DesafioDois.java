@@ -1,19 +1,27 @@
+package desafios;
+
 import java.util.Scanner;
 
 public class DesafioDois {
+	public DesafioDois() {
+		super();
+		// TODO Auto-generated constructor stub
+	}
+
 	public static String password;
 	private static Scanner getPassword;
 	private static int firstTry = 0;
 	private static int secondTry = 1;
+	
+	public static String msgSucess = "";
 
 	public static void main(String[] args) {
 		callScanner(firstTry);
 	}
 
-	public static void createPassword() {
+	public static void createPassword(String password) {
 		Integer minimumSize = 6;
 		String caracterSpecial = "[a-zA-Z.? ]*";
-		String msgSucess = "Sua senha foi cadastrada com SUCESSO !";
 
 		// verificando se a string é vazia ou nula
 		if (password.isEmpty() || password == null) {
@@ -42,6 +50,9 @@ public class DesafioDois {
 			callScanner(secondTry);
 			return;
 		}
+		
+		msgSucess = "Sua senha foi cadastrada com SUCESSO !";
+		
 		System.out.println(msgSucess);
 	}
 
@@ -54,7 +65,9 @@ public class DesafioDois {
 		}
 		getPassword = new Scanner(System.in);
 		password = getPassword.next();
-		createPassword();
+		
+		//passando variavel global para funcionar o test com junit
+		createPassword(password);
 	}
 
 	// metodo para checar se tem letra maiuscula
