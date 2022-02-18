@@ -10,7 +10,8 @@
 - Eclipse 
 
 # Instruções: 
-- baixar projeto
+- baixar projeto:
+
  git clone +   https://github.com/karollinesena2/DesafioCapgemini.git
 
  # Questões abordadas: 
