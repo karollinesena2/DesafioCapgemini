@@ -4,7 +4,7 @@
 - JAVA
 
 # Tecnologias:
-- intellJ IDEA 
+- Eclipse 
 - JUnit
 
 # Instruções para executar o projeto:
